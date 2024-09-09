@@ -88,8 +88,8 @@ export const Nav = ({ isDarkMode, toggleDarkMode }) => {
             Home
           </Navbar.Link>
           <Navbar.Link href="/QuestionForm">About</Navbar.Link>
-          <Navbar.Link href="#">Services</Navbar.Link>
-          <Navbar.Link href="#">Pricing</Navbar.Link>
+          <Navbar.Link href="/Videos">Services</Navbar.Link>
+          <Navbar.Link href="/">Pricing</Navbar.Link>
           <Navbar.Link href="#">Contact</Navbar.Link>
         </Navbar.Collapse>
 

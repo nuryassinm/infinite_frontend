@@ -93,7 +93,7 @@ export const Overview = () => {
         },
       },
       {
-        breakpoint: 955,
+        breakpoint: 1008,
         settings: {
           slidesToShow: 2,
         },

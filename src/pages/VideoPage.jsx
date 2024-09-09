@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PlyrComponent from '../components/PlyrComponent'
 function VideoPage() {
     return (
         <>
@@ -7,7 +7,8 @@ function VideoPage() {
                 <aside className='md:w-[54%] w-full flex flex-col gap-4'>
                     <h1 className='ml-4 my-0'>Video Title will be placed here</h1>
                     <div className='w-full rounded-2xl overflow-hidden shadow-2xl'>
-                        <video width="100%" height="100%" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" controls />
+                       <PlyrComponent />
+                        {/* <video width="100%" height="100%" src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4" controls /> */}
                     </div>
                     {/* <iframe className='rounded-2xl' width="100%" height="350"
                         src="https://www.youtube.com/embed/tgbNymZ7vqY"
